@@ -1,0 +1,255 @@
+.button {
+       -fx-background-color: transparent;
+       /* -fx-border-color: black; */
+       /* -fx-border-width: 0 0 0 2;  */
+       -fx-font-weight: bold;
+       -fx-font: 15 serief;
+       -fx-padding: 10 10 10 15;
+       -fx-margin: 5 5 5 5;
+       -fx-font-size: 17px;
+       -fx-font-weight: bold;
+
+
+
+}
+
+/*.hbox {
+       -fx-padding: 5 5 5 5;
+       -fx-margin: 5 5 5 5;
+       -fx-background-color: #D3D3D3;
+       -fx-border-color: #2e8b57;
+       -fx-border-width: 2px;
+       -fx-padding: 10;
+}*/
+
+.Menubar {
+       /* -fx-background-color: white; */
+       /* -fx-border-color: #2e8b57;
+       -fx-border-width: 2px; */
+       /* -fx-padding: 0 5 0 3; */
+       /* -fx-spacing: 8; */
+       /* -fx-font-weight: bold;
+       -fx-font: 15 serief; */
+       /* -fx-font-size:17px; */
+       /* -fx-font-weight:bold; */
+       -fx-background-color: transparent;
+       /* -fx-border-color: black; */
+       /* -fx-border-width: 0 0 0 2;  */
+       -fx-font-weight: bold;
+       -fx-font: 15 serief;
+       -fx-padding: 10 10 10 15;
+       -fx-margin: 5 5 5 5;
+       -fx-font-size: 17px;
+       -fx-font-weight: bold;
+}
+
+.menu {
+       -fx-background-color: transparent;
+       /* -fx-border-color: black; */
+       /* -fx-border-width: 0 0 0 2;  */
+       -fx-font-weight: bold;
+       -fx-font: 15 serief;
+       -fx-padding: 10 10 10 15;
+       -fx-margin: 5 5 5 5;
+       -fx-font-size: 17px;
+       -fx-font-weight: bold;
+
+}
+
+.menu-bar {
+       -fx-background-color: transparent;
+       /* -fx-border-color: black; */
+       /* -fx-border-width: 0 0 0 2;  */
+       -fx-font-weight: bold;
+       -fx-font: 15 serief;
+       -fx-padding: 10 10 10 15;
+       -fx-margin: 5 5 5 5;
+       -fx-font-size: 17px;
+       -fx-font-weight: bold;
+
+}
+
+.button:hover {
+       -fx-background-color: #D3D3D3;
+}
+
+.text-field {
+       -fx-border: 0 0 5 0;
+       -fx-border-color: black;
+}
+
+#play {
+       -fx-background-color: white;
+
+}
+
+#play:hover {
+       -fx-background-color: white;
+}
+
+
+.text-field {
+       -fx-background-color: white;
+       -fx-font-family: "Quicksand";
+       -fx-font-size: 15;
+       -fx-padding: 5 5 5 20;
+       -fx-margin: 5 5 5 5;
+
+       -fx-border-width: 1 1 1 1;
+       -fx-border-radius: 5;
+       -fx-border: gone;
+       /* -fx-border-width: 0 0 0 0;
+       -fx-border-radius: 5;
+       -fx-border: gone; 
+       -fx-border-color: black; */
+       -fx-border-color: rgb(161, 160, 160);
+       -fx-background-color: transparent;
+       -fx-text-fill: grey;
+       -fx-background-repeat: no-repeat;
+       -fx-background-position: right;
+}
+
+.vbox {
+       -fx-background-color: white;
+       /* -fx-border-color: #2e8b57;
+       -fx-border-width: 2px; */
+       -fx-padding: 0 5 0 3;
+       -fx-spacing: 8;
+}
+
+.vb {
+       -fx-padding: 10 10 10 10;
+}
+
+.border-pane {
+       -fx-background-color: white;
+       -fx-padding: 0 1 0 0;
+       /* -fx-margin: 10; */
+       -fx-border: 0 0 3 0;
+       -fx-border-color: black;
+
+}
+
+.label {
+       -fx-font-family: "Quicksand";
+       -fx-font-size: 60;
+       -fx-font-weight: bold;
+}
+
+.playVideo {
+       -fx-border: 0 0 0 2;
+       -fx-border-color: black;
+}
+
+.button:focus {
+       -fx-border: 0 0 0 2;
+       -fx-border-color: black;
+}
+
+#findButton {
+       /* -fx-background-color: rgb(151, 129, 129);
+       -fx-padding: 10 10 10 10;
+       -fx-border:5 5 2 2;
+       -fx-border-color: #87123d;
+
+       -fx-font-family: "Quicksand";
+       -fx-font-size: 15;
+       -fx-font-weight:bold; */
+       -fx-background-color:
+              #3c7fb1,
+              linear-gradient(#fafdfe, #e8f5fc),
+              linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+       -fx-background-insets: 0, 1, 2;
+       -fx-background-radius: 3, 2, 1;
+       -fx-padding: 6 40 6 40;
+       -fx-text-fill: black;
+       -fx-font-size: 40px;
+}
+
+/* .hbox {
+       -fx-background-color: #2f4f4f;
+       -fx-padding: 10;
+       -fx-spacing: 8;
+} */
+
+.anchor-pane {
+
+       -fx-border-color: rgb(134, 133, 133);
+       -fx-border-width: 0 1 0 0;
+       -fx-border: gone;
+       /* -fx-padding:0 0 0 3; */
+}
+
+.menu-bar {
+       /* -fx-background-color: black ;
+       -fx-opacity: 0.5;
+       -fx-border-width: 2.0; */
+       -fx-background-color: transparent;
+       /* -fx-border-color: black; */
+       /* -fx-border-width: 0 0 0 2;  */
+       -fx-font-weight: bold;
+       -fx-font: 15 serief;
+       -fx-padding: 5 5 5 5;
+       -fx-margin: 5 5 5 5;
+       -fx-font-size: 17px;
+       -fx-font-weight: bold;
+
+}
+
+.menu-bar:hover {
+       -fx-background-color: #D3D3D3;
+       -fx-text-fill: blue;
+
+
+}
+
+.menu-bar .label {
+       -fx-background-color: transparent;
+       /* -fx-border-color: black; */
+       /* -fx-border-width: 0 0 0 2;  */
+       -fx-font-weight: bold;
+       -fx-font: 15 serief;
+       -fx-padding: 10 10 10 15;
+       -fx-margin: 5 5 5 5;
+       -fx-font-size: 17px;
+       -fx-font-weight: bold;
+
+       /* -fx-font-size: 17px;
+       -fx-font-family: "Bookman Old Style";
+       -fx-text-fill: white;
+       -fx-font-weight: bold; 
+       -fx-padding: 10.0px; */
+
+}
+
+/* .menu-bar .menu-button:hover, .menu-bar .menu-button:focused, .menu-bar .menu-button:showing {
+       -fx-background: white;
+       /* -fx-opacity: ; */
+/* -fx-text-fill: white; */
+/* } */
+
+.menu-item {
+       -fx-padding: 0.0em 0.0em 0.0em 0.0em;
+       -fx-text-fill: black;
+       -fx-background: #D3D3D3;
+       /* -fx-background: white; */
+}
+
+.menu-item .label {
+       -fx-font-size: 17px;
+       -fx-text-fill: black;
+}
+
+.menu-item .label:hover {
+       -fx-font-size: 17px;
+       -fx-background: black;
+       /* -fx-text-fill: white; */
+}
+
+/* .context-menu {
+       -fx-skin: "com.sun.javafx.scene.control.skin.ContextMenuSkin";
+       -fx-background-color:white ;
+       -fx-border-width: 0.2px;
+       -fx-border-color: black;
+      
+   } */

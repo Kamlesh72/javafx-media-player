@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "vmArgs": "--module-path \"/Users/kamlesh/Downloads/javafx-sdk-20.0.1/lib\" --add-modules javafx.controls,javafx.fxml,javafx.media,javafx.base,javafx.graphics,javafx.swing,javafx.web",
+      "type": "java",
+      "name": "Project",
+      "request": "launch",
+      "mainClass": "Project",
+      "projectName": "Media"
+    }
+  ]
+}
